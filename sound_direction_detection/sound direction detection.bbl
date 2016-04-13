@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{everydaysounds}
+Y.~Guo and M.~Hazas.
+\newblock Acoustic source localization of everyday sounds using wireless sensor
+  networks.
+\newblock In {\em Proceedings of the 12th ACM International Conference Adjunct
+  Papers on Ubiquitous Computing - Adjunct}, UbiComp '10 Adjunct, pages
+  411--412, New York, NY, USA, 2010. ACM.
+
+\bibitem{murray2004robotics}
+J.~C. Murray, H.~Erwin, and S.~Wermter.
+\newblock Robotics sound-source localization and tracking using interaural time
+  difference and cross-correlation.
+\newblock In {\em Proceedings of NeuroBotics Workshop}, pages 89--97, 2004.
+
+\bibitem{derivationSource}
+W.~University.
+\newblock Acoustic source localization.
+\newblock
+  \url{http://www.ese.wustl.edu/~nehorai/josh/students.cec.wustl.edu/_jly1/angle.html}.
+
+\bibitem{4459286}
+C.~Zhang, D.~Florencio, D.~E. Ba, and Z.~Zhang.
+\newblock Maximum likelihood sound source localization and beamforming for
+  directional microphone arrays in distributed meetings.
+\newblock {\em IEEE Transactions on Multimedia}, 10(3):538--548, April 2008.
+
+\end{thebibliography}

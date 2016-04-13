@@ -1,0 +1,7 @@
+\section{Future work}
+Our current approach uses only two microphones for angle estimation. If one choose two symmetric points in first and third quadrants with same value of TDOA, then the system although will determine the angle correctly but would not be able to differentiate between first and third quandant. So future work would focus on using a smartphone with three microphones and use received sound amplitude to differentiate between sources in first-third and second-fourth quadrants. Using a third microphone, we can extend our technique to estimate angles from 0 to 360 degrees.
+
+Secondly, the current implementation doesn't consider the height of the sound source and all the estimation assumes the sound source to be on same level as the smartphone. If smartphone and sound source are at different heights then the estimated angle might have an error. In our future work, we plan to introduce height as another parameter for angle estimation. 
+
+Lastly, we believe it would be interesting to see a comparison of accuracy between different sources of sound. Current implementation uses white noise as sound source, the future implementation would also consider other sound sources e.g. human voice.
+
