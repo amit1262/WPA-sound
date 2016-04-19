@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \usepackage{svg}
 \usepackage{url}
+\usepackage{amsmath}
 \begin{document}
 
 % Copyright
@@ -15,7 +16,7 @@
 %\setcopyright{cagovmixed}
 
 
-\title{SmartPhone based Sound Direction Detection}
+\title{SmartPhone based Sound Direction Estimation}
 
 %
 
@@ -55,14 +56,14 @@ Amit Sharma, Youngki Lee, Rajesh K Balan, Archan Misra\\
 
 \maketitle
 \begin{abstract}
-Information about sound direction can be quite useful in certain situations. For example, imagine a lecture hall with video recording facility. We want to video record the speaker along with attendants asking questions, if any. Using a smartphone, we can detect direction of current speaker and accordingly automatically rotate the camera to capture the speaker. Another application could be assistance to the deaf people in a meeting. Since they rely on lip/gesture reading of the speaker to understand the ongoing discussion, so a smartphone can be used to detect the speaker direction and help the deaf person look in appropriate direction.\\
+Information about sound direction can be quite useful in certain situations. For example, imagine a lecture hall with video recording facility. We want to video record the speaker along with attendants asking questions, if any. Using a smartphone, we can detect direction of current speaker and accordingly automatically rotate the camera to capture the speaker. Another application could be assistance to a deaf person in a meeting. Since they rely on lip/gesture reading of the speaker to understand the ongoing discussion, so a smartphone can be used to detect the speaker direction and help the deaf person look in appropriate direction.\\
 
-In this work, we present design, implementation and experiment results of a smartphone based sound direction detection system. We utilized difference in amplitude and Time Difference of Arrival (TDOA) of two signals at two microphones of the smartphone. We used only one smartphone with two microphones to detect directions from 0 to 180 degrees. Experiment results for using \textit{white noise} as a sound source are discussed in this work.
+In this work, we present our sound direction estimation application that exploits Time Difference of Arrival (TDOA) of two signals at two microphones of a smartphone and signal cross-correlation for angle estimation. We used only one smartphone with two microphones to detect directions from 0 to 180 degrees. Experiment results for using \textit{white noise} as a sound source are discussed in this work. Our approach can detect 37 different angles for a smartphone with microphones 14 cm from each other.
 
 \end{abstract}
 
 
-\keywords{SmartPhone, Time-differnce of Arrival (TDOA), Angle of Arrival}
+\keywords{SmartPhone, Time-differnce of Arrival (TDOA), Angle of Arrival, Cross-Correlation}
 
 \input{introduction}
 
@@ -77,7 +78,7 @@ In this work, we present design, implementation and experiment results of a smar
 
 \input{future_work}
 
-\nocite{murray2004robotics,4459286}
+\nocite{4459286}
 % produce the bibliography for the citations in your paper.
 \bibliographystyle{abbrv}
 \bibliography{biblio}  % sigproc.bib is the name of the Bibliography in this case
